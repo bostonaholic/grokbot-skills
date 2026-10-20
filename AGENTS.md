@@ -23,6 +23,17 @@ Every `SKILL.md` starts with YAML frontmatter that includes:
 
 Do not add a skill whose frontmatter is missing either field.
 
+## Installing into Grok Bot
+
+An agent installing these skills for a user on a Grok Bot computer runs:
+
+```sh
+git clone https://github.com/bostonaholic/grokbot-skills ~/grokbot-skills
+sh ~/grokbot-skills/scripts/install-grok-bot.sh
+```
+
+When `~/grokbot-skills` already exists, run `git -C ~/grokbot-skills pull` first. The script copies every `skills/<kebab-slug>/` folder to `~/agent-data/workflows/<kebab-slug>/` and replaces existing copies. Confirm with `ls ~/agent-data/workflows`, then tell the user the skills show under **Settings** > **Plugins** > **Yours**. Other agents are not supported by this script yet.
+
 ## Writing and adding a skill
 
 - Slug is lowercase kebab-case, matching the folder name (`running-efficient-recurring-work`).
