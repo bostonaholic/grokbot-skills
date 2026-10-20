@@ -2,6 +2,8 @@
 
 Skills for Cursor and Grok Bot agents. Each skill is one folder an agent can load on its own.
 
+Agent instructions for this repo: [AGENTS.md](AGENTS.md).
+
 ## Layout
 
 ```
