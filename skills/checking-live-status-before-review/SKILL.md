@@ -1,9 +1,9 @@
 ---
 name: Checking live status before review
 description: >-
-  Use right before sending a person any item for review, approval, or a
-  decision (a PR, issue, draft, deploy, or approval request), so the ask
-  reflects the item's live state and not stale memory.
+  Use right before sending a person any item for review, approval, or a decision
+  (a PR, issue, draft, deploy, or approval request), so the ask reflects the
+  item's live state and not stale memory.
 ---
 # Checking live status before review
 
