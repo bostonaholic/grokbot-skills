@@ -17,3 +17,6 @@ description: >-
 8. **Define done as a checklist.** Before starting, list what must be true for the result to be usable. After drafting, mark each check PASS, FAIL, or UNKNOWN, with its evidence. Make one correction pass on the failures. If anything still fails, return NEEDS REVIEW with the exact issue rather than calling it complete. A bot saying "verified" isn't evidence.
 9. **Measure.** Keep a run log with one row per assignment: id, status, source outcome, retries, correction passes, usage (or unknown), and evidence path. Compare versions on the same inputs against the same checklist, and keep a change only if quality holds.
 10. **Connectors before browser.** Use a connector or CLI when one exists. The box's browser logins are shared by every bot, so use the browser only when there's no connector, or when a connector read costs money and the browser is free. At a login, 2FA or CAPTCHA, stop and ask once instead of retrying.
+
+## Trim long output (bot-skills#40, Adam GO Nov 2, 2026)
+Before reading long tool or log output, trim it, but always keep the error lines and the tail of the output. Kill rule: revert this if any bot misses a fact it needed because the output was trimmed.
