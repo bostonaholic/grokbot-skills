@@ -34,5 +34,8 @@ approval". Then continue with the steps that do not need one.
 - [ ] Time zone confirmed
 - [ ] Missing-input and failed-check paths report instead of guessing
 - [ ] Every create/send step checks for a prior success first
-- [ ] Test run output read
+- [ ] Test run output read and test-run note recorded (format in starting-a-routine-skill-first step 8)
 - [ ] Trigger fire estimate is 10 or fewer per week
+
+## Circuit breaker (bot-skills#39, Adam GO Nov 2, 2026)
+After 3 consecutive failures from the same source, pause the routine and tell Charles in one line naming the routine and the error, so he can resume it. Kill rule: if no pause fires in 30 days, remove this block.

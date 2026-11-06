@@ -5,6 +5,9 @@ effort: high
 argument-hint: "[<project-number-or-url>] [--promote <issue-number> | --promote-top [<count>] [--focus <area>]]"
 ---
 
+
+**Shipyard monorepo (verified on GitHub, Oct 26, 2026).** Bug Beacon, Feature Fountain and Groom Reaper all live in `airshiplabs/shipyard`. Their old repos (`airshiplabs/bugbeacon`, `featurefountain`, `groomreaper`) are archived, so file issues, PRs and code work in `airshiplabs/shipyard`. The SDK repos (`bugbeacon-sdks`, `featurefountain-sdks`) and `groomreaper-qa` are still active.
+
 # grooming-backlogs: plan, ask, wait, then execute
 
 This skill changes a shared tracker, so it never acts on its own judgment
