@@ -128,6 +128,16 @@ question (picked by the [decision rules](shared/decisions.md)), and numbered
 **Verification Steps** an implementer can run. An item with an open blocker or
 an unsettled design question is not ready and is never moved to Ready.
 
+## Build What Matters
+
+When ranking, clustering, or promoting work (Matthew, Nov 17, 2026):
+prefer the smallest slice that can prove the idea over a larger promised
+epic. Keep customer conversations (before build and after ship) and
+distribution (how people will find it) in scope for Features and Epics;
+do not defer them as follow-up. Say no to almost everything: leave
+low-evidence work in the backlog or recommend closure rather than
+promoting it.
+
 ## References
 
 - [Verifying claims](references/verifying-claims.md): before ranking or

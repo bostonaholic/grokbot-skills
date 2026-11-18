@@ -21,6 +21,7 @@ Adapted from the office-hours skill in [garrytan/gstack](https://github.com/garr
 - Watch, don't demo.
 - The status quo (the workaround people already use) is the real competitor.
 - Narrow beats wide early: the smallest thing someone pays for this week beats the platform vision.
+- The market rewards clarity over cleverness (Build What Matters, Matthew, Nov 17, 2026): say the recommendation in plain words, not a clever frame.
 
 ## 3. Posture
 - Take a position on every answer and say what evidence would change it.
