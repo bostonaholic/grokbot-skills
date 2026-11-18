@@ -44,3 +44,9 @@ real uncertainty or scope, never to hedge against criticism.
 
 House style bans em dashes. Before delivering, search the text for `—` and
 rewrite each hit with a comma, period, colon, or parentheses.
+
+## Clarity over cleverness
+
+The market rewards clarity over cleverness (Build What Matters, Matthew,
+Nov 17, 2026). Prefer the plain sentence that means one thing over a clever
+turn of phrase.
